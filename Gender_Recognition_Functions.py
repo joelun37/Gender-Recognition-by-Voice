@@ -108,7 +108,7 @@ def prepare_data(MFCC, audio, sfreq, mask_threshold = 0.0005):
 
     myPattern = r'      <Turn endTime="(.+)" speaker="(.+)" startTime="(.+)">'
     pattern = re.compile(myPattern)
-    Male_Speaker = ["spk2","spk4"]
+    Male_Speaker = ["spk3","spk4"]
     mIdx = 0
     fIdx = 0
     f = open("/Volumes/750GB-HDD/CES-Data-Scientist/Data/06-11-22_manual.trs")
